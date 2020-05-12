@@ -7,7 +7,10 @@ export default function Change() {
 
       <p>&hellip;jinak ji nedostaneme.</p>
 
-      <p>Tady bude návod, jak se spojit a společně změnit systém škol. Chceme, aby se každý člověk mohl svobodně rozhodnout, jak se chce vzdělávat.</p>
+      <p>
+        Tady bude návod, jak se spojit a společně změnit systém škol. Chceme,
+        aby se každý člověk mohl svobodně rozhodnout, jak se chce vzdělávat.
+      </p>
       <ul>
         <li>materiály k vytištění</li>
       </ul>

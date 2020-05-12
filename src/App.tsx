@@ -15,11 +15,21 @@ export default function App() {
       <Header />
       <Content>
         <Switch>
-          <Route path="/odejdi"><Leave /></Route>
-          <Route path="/zij"><Live /></Route>
-          <Route path="/zmen"><Change /></Route>
-          <Route path="/spoj-se"><Connect /></Route>
-          <Route path="/"><Home /></Route>
+          <Route path="/odejdi">
+            <Leave />
+          </Route>
+          <Route path="/zij">
+            <Live />
+          </Route>
+          <Route path="/zmen">
+            <Change />
+          </Route>
+          <Route path="/spoj-se">
+            <Connect />
+          </Route>
+          <Route path="/">
+            <Home />
+          </Route>
         </Switch>
       </Content>
       <Footer />

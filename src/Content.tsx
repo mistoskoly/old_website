@@ -7,7 +7,5 @@ const Section = styled.div`
 `;
 
 export default function Live({ children }: { children: ReactNode }) {
-  return (
-    <Section>{children}</Section>
-  );
+  return <Section>{children}</Section>;
 }

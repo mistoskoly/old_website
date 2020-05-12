@@ -14,11 +14,9 @@ export default function Footer() {
   return (
     <StyledFooter>
       <span>
-        květen 2020
-        {' '}
-        &middot;
-        {' '}
+        květen 2020 &middot;{' '}
         <a href="https://github.com/mistoskoly/mistoskoly.cz">git</a>
       </span>
-    </StyledFooter>);
+    </StyledFooter>
+  );
 }
